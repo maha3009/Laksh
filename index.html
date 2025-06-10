@@ -118,3 +118,61 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KPRCAS Login</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .login-container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    width: 320px;
+  }
+  h2 {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<img class="logo" src="data:image/jpeg;base64,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
